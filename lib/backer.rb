@@ -10,4 +10,7 @@ class Backer
   def backed_projects()
     backed_projects = []
   end
+  def project(title)
+    project.title.new
+  end
 end
